@@ -1,0 +1,22 @@
+{
+  "name": "@cars-auction/events",
+  "version": "1.0.0",
+  "description": "Redis Streams event library — canonical definitions and helpers for the cars-auction system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
