@@ -78,3 +78,7 @@ docker compose exec redis redis-cli XINFO GROUPS events:cars
 # Check an in-flight reply stream
 docker compose exec redis redis-cli XLEN reply:<correlationId>
 ```
+
+## Resources
+
+- [Introduction](https://dev.to/mehmetakar/redis-streams-a-comprehensive-guide-cal)
